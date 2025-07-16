@@ -54,6 +54,7 @@ export const navLinks = [
 
 export const features = [
   {
+    key:1,
     label: "Wide Selection",
     text: "Access a diverse range of veterinary products and supplies from trusted vendors.",
     svg: `<svg width="25" height="25" viewBox="0 0 24 24" fill="#ab45db" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -64,6 +65,7 @@ export const features = [
     </svg>`
   },
   {
+    key:2,
     label: "Trusted Vendors",
     text: "Purchase with confidence from reliable and reputable suppliers in the veterinary industry.",
     svg: `<svg width="25" height="25" viewBox="0 0 24 24" fill="#ab45db" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -72,6 +74,7 @@ export const features = [
     </svg>`
   },
   {
+    key:3,
     label: "Direct Buying",
     text: "Buy directly from sellers without intermediaries, ensuring transparent and fair transactions.",
     svg: `<svg width="25" height="25" viewBox="0 0 24 24" fill="#ab45db" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -81,6 +84,7 @@ export const features = [
     </svg>`
   },
   {
+    key:4,
     label: "24/7 Support",
     text: "Receive continuous support for any queries or issues, ensuring a smooth buying experience.",
     svg: `<svg width="25" height="25" viewBox="0 0 24 24" fill="#ab45db" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">

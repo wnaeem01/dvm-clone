@@ -8,6 +8,8 @@ import { getCategories } from '../app/api/sidebar';
 import Hotsellingproducts from './components/hotsellingproducts'
 import Dealsbanner from './components/dealsbanner'
 import Featuredproducts from './components/featuredproducts'
+import Eventdata from './components/eventdata'
+import Vetproducts from './components/vetproducts'
 
 const categories = await getCategories();
 const page = () => {
@@ -35,6 +37,8 @@ const page = () => {
             className="w-full h-auto object-cover"
           />
         </div>
+        <Eventdata />
+        <Vetproducts />
     </div>
   )
 }

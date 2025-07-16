@@ -6,7 +6,7 @@ import Sidebar from './layouts/siderbar'
 import Topheader from './layouts/topheader'
 import { getCategories } from '../app/api/sidebar'; 
 
-const categories = await getCategories();
+const categories = await getCategories() || [];
 const page = () => {
   return (
     <div>

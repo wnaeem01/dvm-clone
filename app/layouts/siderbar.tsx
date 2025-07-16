@@ -1,10 +1,7 @@
 'use client';
 import { useSelector } from "react-redux";
 const Sidebar = ({categories}:any) => {
-  console.log('Categories:', categories);
-  
   const isOpen = useSelector((state: any) => state.sidebar.value);
-
   return (
     <div
       className={`

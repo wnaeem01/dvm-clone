@@ -1,11 +1,14 @@
 'use client';
 
 import Link from 'next/link';
+import { useSelector } from 'react-redux';
+
 
 const Signupbutton = () => {
+  const loginStatus= useSelector((state:any) => state.user?.value?.username);
   return (
     <Link href="/auth" className="bg-[#ab45db] text-white px-4 py-2 m-3 rounded-3xl flex font-semibold text-sm items-center">
-      Sign in
+      {loginStatus ? ` ${loginStatus}` : 'Sign Up'}
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="16"

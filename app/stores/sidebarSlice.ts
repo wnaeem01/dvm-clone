@@ -1,9 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-import { getCategories } from "../api/sidebar";
-
-const Categories=await getCategories();
-
 const sidebarSlice = createSlice({
   name: 'sidebar',
   initialState: { value: false },

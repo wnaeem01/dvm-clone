@@ -19,7 +19,7 @@ const categories = await getCategories() || [];
 const page = () => {
   
   return (
-    <div>
+    <div className='flex flex-col min-h-screen'>
       <Sidebar categories={categories}/>
       <Topheader/>
       <Header/>

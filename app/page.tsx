@@ -10,9 +10,14 @@ import Dealsbanner from './components/dealsbanner'
 import Featuredproducts from './components/featuredproducts'
 import Eventdata from './components/eventdata'
 import Vetproducts from './components/vetproducts'
+import Vertinarypractice from './components/vertinaryprac'
+import Vetpetgrid from './components/vetpetgrid'
+import Preferredvendors from './components/preferredvendors'
+import Footer from './layouts/footer'
 
-const categories = await getCategories();
+const categories = await getCategories() || [];
 const page = () => {
+  
   return (
     <div>
       <Sidebar categories={categories}/>
@@ -39,6 +44,15 @@ const page = () => {
         </div>
         <Eventdata />
         <Vetproducts />
+
+      <div className="container mx-auto px-6 mt-20">
+        <Vertinarypractice />
+      </div>
+      <Vetpetgrid />
+      <div className="container mx-auto px-6 mt-20">
+        <Preferredvendors />
+      </div>
+      <Footer />
     </div>
   )
 }

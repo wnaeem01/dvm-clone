@@ -5,7 +5,7 @@ import React from "react";
 const Vetproducts = () => {
   return (
     <div
-      className="grid grid-cols-12 p-8 rounded-lg text-white bg-opacity-80 mt-8 gap-6 bg-[#f1e6f4] text-black p-40 mt-30"
+      className="grid grid-cols-12 p-8 rounded-lg text-white bg-opacity-80 mt-8 gap-6 bg-[#f1e6f4] text-black p-40 mt-30 align-middle"
       style={{
         backgroundImage:
           "url('https://images.unsplash.com/photo-1583337130417-3346a1f4d5c1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80')", // Direct image URL

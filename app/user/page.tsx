@@ -1,6 +1,8 @@
 const Page = () => {
   return (
-    <div>User  dsadsa</div>
+    <div>
+        <h1 className="bg-[#ab45db]">Personal Information</h1>
+    </div>
   )
 }
 

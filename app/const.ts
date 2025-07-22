@@ -42,7 +42,7 @@ export const contact = '+1 (407)-557 6073';
 
 
 export const navLinks = [
-  { label: "Shop Now", href: "/shop" },
+  { label: "Shop Now", href: "/hotselling" },
   { label: "Sell on DVM", href: "/sell" },
   { label: "Learn at Lunch", href: "/learn" },
   { label: "Buy Now", href: "/buy" },

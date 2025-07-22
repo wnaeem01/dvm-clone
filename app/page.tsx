@@ -1,3 +1,4 @@
+'use client'
 import Mainanimator from "./components/mainanimator";
 import Features from "./components/features";
 import Hotsellingproducts from "./components/hotsellingproducts";
@@ -10,6 +11,7 @@ import Vetpetgrid from "./components/vetpetgrid";
 import Preferredvendors from "./components/preferredvendors";
 
 export default function HomePage() {
+  
   return (
     <>
       <Mainanimator />

@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
         {/* About Section */}
         <div>
-            <img  className="mix-blend-multiply" src="assets/Screenshot.png" alt="" />
+            <img  className="mix-blend-multiply" src="/assets/Screenshot.png" alt="" />
           <div className="p-5">
             <p className="text-sm leading-relaxed mb-4">
             DVM Central is a veterinary marketplace that connects veterinarians with reliable suppliers for all their animal healthcare needs.
@@ -102,6 +102,18 @@ const Footer = () => {
               </a>
             </p>
           </address>
+          <div className="mt-6 rounded-md overflow-hidden shadow-md">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.8316276743303!2d-81.4428770236945!3d28.484616875745772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77eba9f4fffff%3A0xbe47ad232f0645f!2s4700%20Millenia%20Blvd%20Ste%20175%2C%20Orlando%2C%20FL%2032839%2C%20USA!5e0!3m2!1sen!2s!4v1753112204387!5m2!1sen!2s"
+              width="100%"
+              height="200"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
+
         </div>
 
         {/* Shop By Categories */}
